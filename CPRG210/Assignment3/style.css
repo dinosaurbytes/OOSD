@@ -1,0 +1,95 @@
+
+body{
+  background-image: url("images/sharkBackground.jpg");
+  background-repeat: no-repeat;}
+  /* background-color: #ADD8E6;} */
+
+
+header img.logo{
+  border-radius: 50%;}
+header h1{
+  color: #ECF0F1  ;
+  font-size: 40px;
+  font-family: fantasy;}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-right: 80px;}
+nav li {
+    float: right;}
+nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #ECF0F1  ;
+    font-family: fantasy;}
+nav li a:hover {
+    /* background-color:	#00FF7F; */
+  border-radius: 50%;}
+
+
+.content {
+	float: left;
+	width: 659px;
+	border-right: 1px solid #eeeeee;}
+  /* background-color: #ADD8E6} */
+article {
+	clear: both;
+	overflow: auto;
+	width: 100%;}
+  article.text{
+    margin-left: 100px;
+  }
+hgroup {
+	margin-top: 40px;}
+figure {
+	float: left;
+	width: 290px;
+	height: 220px;
+	padding: 5px;
+	margin: 20px;}
+figure img{
+  border-radius: 30%;}
+figcaption {
+	font-size: 90%;
+	text-align: left;}
+aside {
+	width: 650px;
+  height: 540px;
+	float: left;
+	padding: 0px 0px 0px 20px;}
+  /* background-color: #ADD8E6;} */
+h1, h2, h3 {
+	font-weight: normal;}
+h2 {
+	margin: 10px 0px 5px 0px;
+	padding: 0px;
+  color: #ECF0F1;}
+h3 {
+	margin: 0px 0px 10px 0px;
+	color: #de6581;}
+aside h2 {
+	padding: 30px 0px 10px 0px;}
+.traveltext{
+  margin-top: 80px;
+  margin-left: 30px;
+  margin-right: 70px;
+}
+form{
+  color: #ECF0F1;}
+
+
+hr{
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+footer {
+	font-size: 80%;
+	padding: 7px 0px 0px 20px;}
