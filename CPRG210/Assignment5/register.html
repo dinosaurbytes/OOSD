@@ -1,0 +1,139 @@
+<!--
+SAIT OOSD
+Brian Liang 782793
+file: register
+ -->
+
+
+ <html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/javascript" href="form.js">
+    <link rel="stylesheet" type="text/javascript" href="addEventListener.js">
+    <script type="text/javascript" src="script.js"></script>
+    <title> Register </title>
+
+  </head>
+  <body>
+  <header>
+    <a id="top"></a>
+    <table align="center">
+      <tr>
+       <td><img class="logo" width="110px" src="images/travelLogo.jpg" alt="Travel Logo"></td>
+       <td><h1 align="center">Welcome to Travel Experts</h1></td>
+     </tr>
+   </table>
+
+    <hr></hr>
+
+    <div align="center">
+      <img height="90px" src="images/travelPhoto1.jpg" alt="Travel Photo 1">
+      <img height="90px" src="images/travelPhoto2.jpg" alt="Travel Photo 2">
+      <img height="90px" src="images/travelPhoto3.jpg" alt="Travel Photo 3">
+      <img height="90px" src="images/travelPhoto4.jpg" alt="Travel Photo 4">
+      <img height="90px" src="images/travelPhoto5.jpg" alt="Travel Photo 5">
+      <img height="90px" src="images/travelPhoto6.jpg" alt="Travel Photo 6">
+      <img height="90px" src="images/travelPhoto7.jpg" alt="Travel Photo 7">
+      <img height="90px" src="images/travelPhoto8.jpg" alt="Travel Photo 8">
+    </div>
+
+    <hr></hr>
+    <nav>
+      <ul>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a class="active" href="index.html">Home</a></li>
+      </ul>
+    </nav>
+
+
+   </header>
+
+      <div style="padding-left: 100px;">
+        <h2>Register</h2>
+        <h3>Customer Information</h3>
+        <form name=:"myForm" action="http://bounce.php" method="post">
+          <table>
+            <tr>
+              <td>
+                Customer Name:
+              </td>
+              <td>
+                <input id="name" class="textbox" type="text" name="name">
+                <p id="customerNameHelp" class="hidden"  ></p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Address:
+              </td>
+              <td>
+                <input id="address" class="textbox" type="text" name="address">
+                <p id="addressHelp" class="hidden"></p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                City:
+              </td>
+              <td>
+                <input id="city" class="textbox" type="text" name="city">
+                <p id="cityHelp" class="hidden"></p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Province:
+              </td>
+              <td>
+                <input id="province" class="textbox" type="text" name="province">
+                <p id="provinceHelp" class="hidden"></p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Postal Code:
+              </td>
+              <td>
+                <input id="postalCode" class="textbox" type="text" onblur="postalCodeCheck(this)">
+                <p id="postalCodeHelp" class="hidden"></p>
+              </td>
+            </tr>
+          </table>
+
+
+          <!-- <h3>What type of Travel are you interested in?</h3>
+          Flight: <input  type="checkbox" name="Flight">
+          Hotel: <input  type="checkbox" name="Flight">
+          Cruise: <input type="checkbox" name="Cruise">
+          All-Inclusive: <input type="checkbox" name="All-Inclusive"><br><br>
+
+          <h3>Price Range:</h3>
+          <$500: <input type="radio" name="Price" checked="checked">
+          $500-$1000: <input type="radio" name="Price">
+          $1000-$3000: <input type="radio" name="Price">
+          $3000-$10000: <input type="radio" name="Price"><br><br>
+
+          <h3>Other Requests: </h3>
+
+          <textarea value="comment" name="textarea" cols="50" rows="5">Comments</textarea><br> -->
+
+          <input type="submit" value="submit" onclick="return validate(this.form)">
+          <!-- <input type="button" value="spell check" onclick="processString()"> -->
+          <input type="button" value="reset" onclick="return clearForm(this.form)">
+        </form>
+
+
+      </div>
+
+      <a href="#top">Back to Top</a><br>
+      <script src="addEventListener.js"></script>
+
+    </body>
+
+  <footer>
+      &copy Brian Liang
+      &copy SAIT OOSD
+  </footer>
+
+</html>
