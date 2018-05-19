@@ -11,6 +11,7 @@ file: register
     <link rel="stylesheet" type="text/javascript" href="form.js">
     <link rel="stylesheet" type="text/javascript" href="addEventListener.js">
     <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript"  src="addEventListener.js"></script>
     <title> Register </title>
 
   </head>
@@ -52,7 +53,7 @@ file: register
       <div style="padding-left: 100px;">
         <h2>Register</h2>
         <h3>Customer Information</h3>
-        <form name=:"myForm" action="http://bounce.php" method="post">
+        <form id="myForm" action="http://bounce.php" method="post">
           <table>
             <tr>
               <td>
@@ -127,7 +128,10 @@ file: register
       </div>
 
       <a href="#top">Back to Top</a><br>
-      <script src="addEventListener.js"></script>
+
+      <script>
+        loadEventListener()
+      </script>
 
     </body>
 
